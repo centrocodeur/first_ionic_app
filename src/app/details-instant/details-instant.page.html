@@ -1,0 +1,22 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-button slot="start">
+      <ion-back-button  defaultHref="/instants"></ion-back-button>
+    </ion-button>
+    <ion-title>INSTANT STORY</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <h1>{{item?.title}}</h1>
+        <h2>{{item?.location}}</h2>
+        <h2>Description</h2>
+        <p>{{item?.description}}</p>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  
+</ion-content>

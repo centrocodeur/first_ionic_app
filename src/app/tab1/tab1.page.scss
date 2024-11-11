@@ -1,0 +1,25 @@
+#content{
+	background: url(../../assets/images/image.jpg);
+	background-position: center;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+}
+h1{
+  //color: var(--ion-color-warning);
+  //left: 50%;
+  position: absolute;
+  text-align: center;
+  text-shadow: black 0.1em 0.1em 0.2em;
+  top: 50%;
+  transform: translate(-50%, 50%);
+  width: 100%;
+}
+#home-icon{
+	font-size: 2em;
+}
+
+ion-toolbar{
+	--color:var(--ion-color-primary)
+	--background:var(--ion-text-color-step-500)
+}
